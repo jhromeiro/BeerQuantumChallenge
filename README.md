@@ -1,11 +1,12 @@
-## BeerQuantumChallenge
-# Beer Quantum Challenge Hackathon, Ambev 2021
+# BeerQuantumChallenge
+## Beer Quantum Challenge Hackathon, Ambev 2021
 
-# Equipe: Qast Quantum Solutions (Arthur Iwakami, Gabriel Valera, João Alves, Yuri Loureiro)
+## Equipe: Qast Quantum Solutions (Arthur Iwakami, Gabriel Valera, João Alves, Yuri Loureiro)
 
 
-Procuramos aplicar o método de Q-SVM (Quantum Suport Vector Machines) em três contextos diferentes. Dois deles são inspirados da metodologia [deste pre-print](https://arxiv.org/abs/2012.07725) para comparação da Q-SVM e de uma SVM clássica. No último caso, aplicamos  a Q-SVM em uma base de dados artificial que procura replicar dados relativos à manutenção de máquinas, e igualmente comparamos as eficiências do clássico contra o quântico.
+Procuramos aplicar o método de Q-SVM (Quantum Suport Vector Machines) em três contextos diferentes afim de comparar a performance do algoritmo quântico em relação à seu equivalente clássico. Dois deles são inspirados da metodologia [deste pre-print](https://arxiv.org/abs/2012.07725) onde conjuntos de dados mais ou menos complexos são utilizados. No último caso, aplicamos a Q-SVM em uma biblioteca de dados artificial que procura replicar dados relativos à manutenção de máquinas, e igualmente comparamos as eficiências do clássico contra o quântico.
 
+Mais detalhes sobre a implementação, resultados e referências podem ser achados no início de cada notebook Jupyter.
 
 - ai4i2020.csv: Base de dados de manutenção utilizada como base para qSVM_maintenance.ipynb. Contém dados classificados simulando medidas de sensores, informações das máquinas e seu estado de funcionamento (falha ou normal).
 
